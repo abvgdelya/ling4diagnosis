@@ -1,0 +1,32 @@
+{
+  "name": "lang4diagnosis",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "next": "15.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "compromise": "^14.14.0",
+    "papaparse": "^5.4.1",
+    "jspdf": "^2.5.1",
+    "lucide-react": "^0.453.0",
+    "recharts": "^2.12.7"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "@types/node": "^22.10.2",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.14",
+    "eslint": "^9.13.0",
+    "eslint-config-next": "15.0.0",
+    "vitest": "^2.1.4"
+  }
+}
